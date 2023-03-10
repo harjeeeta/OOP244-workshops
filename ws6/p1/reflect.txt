@@ -1,0 +1,27 @@
+/*
+*****************************************************************************
+                          Workshop - #6
+Full Name  : Harjeet Singh
+Student ID#: 143232213
+Email      : harjeet-singh3@myseneca.ca
+Section    : ZRA
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been shared 
+with any other student. Although, I took a little idea from internet to find the 
+errors which I was facing when I was trying to define the functions.
+*****************************************************************************
+*/
+
+
+In this workshop, I implemented the Numbers class which is responsible for reading numbers from a file, 
+storing them in an array, and providing various functions to work with the data. During the implementation,
+ I faced several challenges that I overcame by seeking help from online resources such as YouTube videos.
+
+One of the main difficulties in this program was managing memory correctly. The class contains several dynamic 
+arrays, which must be allocated and deallocated properly to avoid memory leaks. To address this issue, the class 
+defines a constructor, a destructor, and several helper functions, such as "setEmpty", "load", and "isEmpty",
+ which are used to manage the memory.
+
+Another difficulty in this program was dealing with input/output operations. The class uses file I/O to read and write 
+the collection of numbers. To address this issue, the class defines several functions, such as "load" and "countLines", 
+which are used to read the numbers from a file, and "save", which is used to write the numbers to a file.
